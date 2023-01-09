@@ -57,7 +57,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTION) {
         //go to end page
         localStorage.setItem('mostRecentScore', score);
-        return window.location.assign('/quick-quiz/end.html');
+        return window.location.assign('end.html');
     }
 
     questionCounter++;
